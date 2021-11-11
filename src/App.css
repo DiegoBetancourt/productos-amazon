@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.producto {
+  width: 300px;
+  margin: 30px;
+  border: 1px solid lightgray;
+
+}
+
+.producto img{
+  width: 100%;
+}
